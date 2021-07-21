@@ -3,3 +3,4 @@
 require_once '../app/bootstrap.php';
 
 $core = new Core();
+$database = new Database();
