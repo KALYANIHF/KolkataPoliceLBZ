@@ -48,3 +48,115 @@
 .serv_heading h5 {
   text-decoration: underline;
 }
+
+/* cyber security page */
+
+.cyber {
+  height: 80vh;
+  background: url("../img/bg-.jpg") no-repeat center center / cover;
+  position: relative;
+}
+.banner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner h1,
+.banner p {
+  color: #fff;
+}
+.lbz_logo {
+  width: 100px;
+  height: auto;
+}
+.banner-shape-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.banner-shape-3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.branch_grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+}
+.branch {
+  padding: 50px 0px;
+}
+.grid {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.grid-reverse {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+figure {
+  height: 50vh;
+}
+figure.branch1 {
+  background: url("../img/branch1.jpg") no-repeat bottom left / cover;
+}
+figure.branch2 {
+  background: url("../img/branch2.jpg") no-repeat top center / cover;
+}
+figure.branch3 {
+  background: url("../img/branch3.jpg") no-repeat center center / cover;
+}
+figure.branch4 {
+  background: url("../img/branch4.jpg") no-repeat center right / cover;
+}
+figure.branch5 {
+  background: url("../img/branch5.jpg") no-repeat left center / cover;
+}
+figure.branch6 {
+  background: url("../img/branch6.jpg") no-repeat center center / cover;
+}
+
+.grid-col {
+  position: relative;
+}
+.branch_heading {
+  padding: 20px 0px;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+.grid-col .overlay {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to bottom right, #d2044c88, #ff5e69f1);
+  top: 0;
+  left: 0;
+  bottom: 100%;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  text-align: center;
+  column-rule: #fff;
+}
+.overlay h5 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.grid-col:hover .overlay {
+  height: 100%;
+  bottom: 0;
+  cursor: pointer !important;
+}

@@ -16,4 +16,10 @@ class Pages extends Controller
     {
         $this->view('pages/about');
     }
+
+    ## define cyber cell
+    public function cyber()
+    {
+        $this->view('pages/cyber');
+    }
 }

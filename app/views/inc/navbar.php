@@ -13,11 +13,11 @@
 				<div class="container">
 					<div id='cssmenu'>
 						<ul>
-							<li class="active"><a href="<?php echo URLROOT ?>/pages">Home</a></li>
+							<li><a href="<?php echo URLROOT ?>/pages">Home</a></li>
 							<li><a  href="<?php echo URLROOT ?>/pages/about">About Us</a></li>
 							<li><a href="#">Special Unit</a>
 								<ul>
-									<li><a href="cyber-cell.php">Cyber Cell</a></li>
+									<li><a href="<?php echo URLROOT ?>/pages/cyber">Cyber Cell</a></li>
 									<li><a href="traffic.php">Traffic</a></li>
 								</ul>
 							</li>
