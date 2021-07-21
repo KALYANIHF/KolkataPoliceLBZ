@@ -9,11 +9,11 @@ class Pages extends Controller
     ## default index method
     public function index()
     {
-        echo "index page";
+        $this->view('pages/index');
     }
     ## define about method
     public function about()
     {
-        echo "about page";
+        $this->view('pages/about');
     }
 }

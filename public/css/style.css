@@ -1,0 +1,50 @@
+/* style of about us page */
+.about {
+  padding: 100px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 84, 84, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: relative;
+}
+.about .about-heading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.about-heading img {
+  width: 60px;
+  height: auto;
+}
+.about-heading p {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+.service_protection {
+  padding: 50px 0px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row .col {
+  width: 50%;
+  height: auto;
+}
+.text-content {
+  margin: 0px 15px;
+}
+.text-content p {
+  font-size: 14px;
+}
+.serv_heading h5 {
+  text-decoration: underline;
+}
