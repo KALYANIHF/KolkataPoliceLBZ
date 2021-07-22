@@ -1,6 +1,15 @@
 /* style of about us page */
 .about {
-  padding: 100px 0px;
+  height: 40vh;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 84, 84, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: relative;
+}
+.contact {
+  height: 40vh;
   background: linear-gradient(
     90deg,
     rgba(122, 84, 84, 1) 0%,
@@ -12,6 +21,13 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contact .about-heading {
+  position: absolute;
+  left: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -103,7 +119,7 @@
   grid-template-rows: auto;
   grid-gap: 10px;
 }
-figure {
+.grid-col figure {
   height: 50vh;
 }
 figure.branch1 {
@@ -155,8 +171,117 @@ figure.branch6 {
   transform: translate(-50%, -50%);
   color: #fff;
 }
+.overlay a {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 12px;
+}
 .grid-col:hover .overlay {
   height: 100%;
   bottom: 0;
   cursor: pointer !important;
+}
+
+/* traffic style */
+.detail_section {
+  padding: 60px 0px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.officeer_img figure img {
+  width: 60%;
+  height: auto;
+}
+.officer_detail p {
+  font-size: 12px !important;
+}
+@media (max-width: 768px) {
+  .detail {
+    display: grid;
+    grid-template-rows: 0.8fr 1.2fr;
+    grid-template-columns: auto;
+    align-items: flex-start;
+    grid-gap: 0;
+  }
+  .officeer_img figure img {
+    width: 30%;
+    height: auto;
+  }
+}
+
+/* drive */
+.drive {
+  height: 80vh;
+  background: url("../img/drive.jpg") no-repeat center center / cover;
+  position: relative;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 50px 0px;
+}
+.links .navlink {
+  list-style-type: none;
+}
+.para {
+  padding: 0px 1rem;
+}
+.main_points {
+  padding: 0rem 2rem;
+}
+.main_points ol li {
+  padding: 0.8rem 0rem;
+}
+
+/* contact page */
+.contact_form {
+  padding: 50px 0px;
+}
+.card {
+  margin: auto;
+  padding: 1.5rem 2rem;
+  width: 60%;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+label sup {
+  color: #f00;
+}
+.contact_info {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.contact_grid {
+  padding: 40px 0px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.info {
+  color: #fff;
+}
+.info i {
+  margin-bottom: 0.8rem;
+}
+.info h5 {
+  padding: 10px 0px;
+}
+.invalid-feedback {
+  color: #f00;
 }

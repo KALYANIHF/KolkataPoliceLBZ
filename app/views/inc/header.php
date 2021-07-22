@@ -30,6 +30,7 @@
 	<link href="<?php echo URLROOT ?>/dependent/assets/frontend/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo URLROOT ?>/dependent/assets/frontend/css/smoothDivScroll.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo URLROOT ?>/dependent/assets/frontend/css/menu.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?php echo URLROOT ?>/css/style.css">
 
 

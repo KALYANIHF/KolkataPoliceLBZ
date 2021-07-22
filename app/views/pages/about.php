@@ -1,12 +1,12 @@
 <?php require_once APPROOT . '/views/inc/header.php'?>
 <!-- about section-->
-<section class="about">
+<div class="about">
     <div class="about-heading">
         <img src="<?php echo URLROOT ?>/img/Kolkata_Police_Logo.png" alt="">
         <h1>About Us</h1>
         <p>Kolkata Police LalBazar</p>
     </div>
-</section>
+</div>
 <!-- service and protection -->
 <section class="service_protection">
     <div class="container">

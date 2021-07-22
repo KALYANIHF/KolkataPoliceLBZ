@@ -24,18 +24,21 @@
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch1</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch1"></figure>
                     </div>
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch2</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch2"></figure>
                     </div>
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch3</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch3"></figure>
                     </div>
@@ -44,18 +47,21 @@
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch4</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch4"></figure>
                     </div>
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch5</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch5"></figure>
                     </div>
                     <div class="grid-col">
                         <div class="overlay">
                             <h5>branch6</h5>
+                            <a href="javascript:void(0)">ReadMore...</a>
                         </div>
                         <figure class="branch6"></figure>
                     </div>
