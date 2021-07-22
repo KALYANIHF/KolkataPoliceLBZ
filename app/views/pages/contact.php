@@ -1,3 +1,6 @@
+<?php
+error_reporting(0);
+?>
 <?php require_once APPROOT . '/views/inc/header2.php'?>
     <div class="contact">
         <div class="about-heading">
@@ -32,6 +35,7 @@
     <div class="container">
         <div class="contact_form">
             <div class="card">
+                <h6><?php flash('contact_request');?></h6>
                 <h5>Fill Your details to Contact</h5>
                 <form action="<?php echo URLROOT ?>/pages/contact" method="post">
                     <div class="form-group">

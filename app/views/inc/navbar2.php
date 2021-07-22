@@ -38,6 +38,7 @@
 								</ul>
 							</li>
 							<li><a href="<?php echo URLROOT ?>/pages/contact">Contact us</a></li>
+							<li><a style="color: #000;" href="javascript:void(0);"># View On Desktop</a></li>
 						</ul>
 					</div>
 				</div>

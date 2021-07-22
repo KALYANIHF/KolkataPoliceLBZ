@@ -71,7 +71,8 @@ class Pages extends Controller
             if (empty($data['name_err']) && empty($data['email_err'])) {
                 // success
                 if ($this->contactModel->addContactRequest($data)) {
-                    echo "Your request is summited Successfully We Will get back to You Soon";
+                    flash('contact_request', 'Your Contact Request added Successfully');
+                    redirect('pages/contact');
                 }
             } else {
                 //failed
