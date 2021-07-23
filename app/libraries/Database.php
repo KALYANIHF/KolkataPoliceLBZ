@@ -56,7 +56,7 @@ class Database
     }
 
     ## execute the query
-    public function execute()
+    public function exec()
     {
         return $this->stmt->execute();
     }
@@ -64,7 +64,7 @@ class Database
     ## define single
     public function single()
     {
-        $this->execute();
+        $this->exec();
         // get the single row result
         return $this->stmt->fetch(PDO::FETCH_OBJ);
     }
@@ -72,7 +72,7 @@ class Database
     ## define multiple
     public function resultSet()
     {
-        $this->execute();
+        $this->exec();
         return $this->resultSet(PDO::FETCH_OBJ);
     }
 

@@ -23,11 +23,9 @@
 							</li>
 							<li><a href="#">Services</a>
 								<ul>
-									<li><a href="view-fir.php">View FIR</a></li>
-									<li><a href="chalan.php">Traffic Chalan</a></li>
-									<li><a href="mp.php">Missing Person</a></li>
-									<!-- <li><a href="oa.php">Online Applicaton</a></li> -->
-									<li><a href="pujo.php">Pujo Permission</a></li>
+									<li><a href="<?php echo URLROOT ?>/services/viewfir">View FIR</a></li>
+									<li><a href="<?php echo URLROOT ?>/services/traffic_challan">Traffic Chalan</a></li>
+									<li><a href="<?php echo URLROOT ?>/services/puja_permission">Pujo Permission</a></li>
 
 								</ul>
 							</li>

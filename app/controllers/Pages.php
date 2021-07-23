@@ -72,7 +72,7 @@ class Pages extends Controller
                 // success
                 if ($this->contactModel->addContactRequest($data)) {
                     flash('contact_request', 'Your Contact Request added Successfully');
-                    redirect('pages/contact');
+                    redirect('pages/index');
                 }
             } else {
                 //failed
@@ -89,6 +89,12 @@ class Pages extends Controller
             ];
             $this->view('pages/contact', $data);
         }
+    }
+
+    ## define fir detail
+    public function firdetail()
+    {
+        $this->view('pages/firdetail');
     }
 
 }

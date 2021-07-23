@@ -16,7 +16,7 @@ class Contact
         $this->db->bind(':name', $data['name']);
         $this->db->bind(':email', $data['email']);
         $this->db->bind(':reason', $data['reason']);
-        if ($this->db->execute()) {
+        if ($this->db->exec()) {
             return true;
         } else {
             return false;

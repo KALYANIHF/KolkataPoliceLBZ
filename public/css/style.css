@@ -285,3 +285,19 @@ label sup {
 .invalid-feedback {
   color: #f00;
 }
+/* fir detail */
+.fir_detail {
+  height: 400px;
+  padding: 1.5rem 2rem;
+  margin: auto;
+  margin-top: 110px;
+  margin-bottom: 50px;
+  background-color: dimgray;
+  width: 60%;
+}
+.fir_content {
+  text-align: left;
+  padding: 2rem 0rem 1rem 0rem;
+  color: #fff;
+  padding-left: 2rem;
+}
