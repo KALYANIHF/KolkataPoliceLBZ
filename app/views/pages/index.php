@@ -5,12 +5,14 @@
 	<section class="topbodypart">
 		<div class="container devidersec">
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-6 col-md-6">
 					<img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/commissioner_pic.jpg" class="comissionerpic" alt="" />
 					<div class="commisonername"><span><b>Shri Anuj Sharma IPS</b></span>
 						Commissioner of Police
 					</div>
 					<div class="clearfix p_bot20"></div>
+				</div>
+				<div class="col-sm-6 col-md-6">
 					<h2>Message From <br>
 						Commissioner of Police</h2>
 					<p>It is a great pleasure to welcome you to the official website of Kolkata Police.
@@ -19,19 +21,6 @@
 
 
 						Heartiest greetings!</p>
-				</div>
-				<div class="col-sm-6">
-					<div class="iconsec">
-						<div class="iconinner"><a href="know-police-station.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon1.png" alt="Know Your Police Station" /></a></div>
-						<div class="iconinner"><a href="safety-quiz.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon2.png" alt="Safty Quiz" /></a></div>
-						<div class="iconinner"><a href="good-workdone.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon3.png" alt="Good Work Done" /></a></div>
-						<div class="iconinner toppicse"><a href="safe-drive-safe-life.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon4.png" alt="Safe Drive Save Life" /></a></div>
-						<div class="iconinner toppicse"><a href="licensing.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon7.png" alt="Licensing" /></a></div>
-						<div class="clearfix"></div>
-						<div class="iconinner toppicse"><a href="report-traffic-violation.php"><img src="<?php echo URLROOT ?>/dependent/assets/frontend/images/icon6.png" alt="Report A Traffic Violation" /></a></div>
-
-
-					</div>
 				</div>
 			</div>
 		</div>
@@ -116,7 +105,7 @@
 								<ul id="nt-example1">
 									<li>
 										<div class="innerscrolldiv">
-											<a href="pujaform.php">Puja form started from20.04.2020
+											<a href="pujaform.php">Puja form started from 20.04.2020
 											</a>
 											<div class="date"><i class="fa fa-calendar-o" aria-hidden="true"></i>04/03/2020 </div>
 										</div>
